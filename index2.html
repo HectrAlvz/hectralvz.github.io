@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <title>Formulario HctrAlvz</title>
+    <link rel="stylesheet" href="Resources/style2.css">
+    <!-- Alumno: Hector Alvarez -->
+	<!-- Grado/Grupo: 4F -->
+  </head>
+  <body>
+    <form class="form-style" action="#" method="post">
+      <h2>Captura de datos</h2>
+
+      <label for="nombre">Nombre:</label>
+        <input class="" type="text" name="nombre" id="nombre" placeholder="Ejemplo: Juan" required>
+        <br><br>
+      <label for="domicilio">Domicilio:</label>
+        <input type="text" name="domicilio" id="domicilio" placeholder="Ejemplo: Calle 1" required>
+        <br><br>
+      <label for="telefono">Telefono:</label>
+        <input type="text" name="telefono" id="telefono" placeholder="Ejemplo: 1234567890" required>
+        <br><br>
+      <label for="correo">Correo:</label>
+        <input type="email" name="correo" id="correo" placeholder="Ejemplo: correo@gmail.com" required>
+        <br><br>
+      <label for="fecha">Fecha de Nacimiento:</label>
+        <input type="date" name="fecha" id="fecha" required>
+        <br><br>
+      <div class="radio-group">
+        <h2>Genero:</h2>
+        <label for="generoM">Masculino <input type="radio" name="genero" id="generoM" value="Masculino" required></label>
+        <label for="generoF">Femenino <input type="radio" name="genero" id="generoF" value="Femenino" required></label>
+        <label for="generoO">Otro <input type="radio" name="genero" id="generoO" value="Otro" required></label>
+      </div>
+        <br><br>
+      <input class="boton" type="submit" value="Guardar">
+      <input class="boton" type="reset" value="Cancelar">
+    </form>
+  </body>
+</html>
